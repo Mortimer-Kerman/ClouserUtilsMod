@@ -1,0 +1,19 @@
+{
+  "gamerule.canPlayerMove": "Can the player move freely",
+  "gamerule.axisXenabled": "Is the horizontal look axis on",
+  "gamerule.axisYenabled": "Is the vertical look axis on",
+  "gamerule.canPlayerJump": "Can the player jump",
+  "gamerule.perspectiveLocked": "Can the player change perspective",
+  "gamerule.cameraClip": "Can the camera clip through blocks",
+  "gamerule.playerEyeHeightFactor": "Player eye height factor",
+  "commands.velocity.success.multiple": "Set velocity of %s entities to %s, %s, %s",
+  "commands.velocity.success.single": "Set velocity of %s to %s, %s, %s",
+  "commands.chatclear.success": "Chat cleared!",
+  "commands.perspective.success": "Perspective set!",
+  "commands.inventory.open": "Inventory opened!",
+  "commands.inventory.close": "Inventory closed!",
+  "commands.resetDoubleJump.success": "Double jump reset!",
+  "commands.shakeCamera.success": "Camera shaking!",
+  "commands.fov.success": "FOV set!",
+  "commands.fov.divisionbyzero": "You can't divide by zero!"
+}

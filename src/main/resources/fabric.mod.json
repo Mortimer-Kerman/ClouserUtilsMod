@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "clouser-utils-mod",
+	"version": "${version}",
+	"name": "Clouser utils mod",
+	"description": "Utils mod for Clouser's Minecraft maps!",
+	"authors": [
+		"Mortimer Kerman"
+	],
+	"contact": {
+		"homepage": "https://mortimer-kerman.github.io/",
+		"sources": "https://github.com/Mortimer-Kerman/ClouserUtilsMod"
+	},
+	"license": "MIT",
+	"icon": "assets/clouser-utils-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.mortimer_kerman.clouserutilsmod.ClouserUtilsMod"
+		],
+		"client": [
+			"net.mortimer_kerman.clouserutilsmod.ClouserUtilsModClient"
+		]
+	},
+	"mixins": [
+      "clouser-utils-mod.mixins.json",
+		{
+			"config": "clouser-utils-mod.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.10",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

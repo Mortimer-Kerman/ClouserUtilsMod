@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "net.mortimer_kerman.clouserutilsmod.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "GameruleMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}

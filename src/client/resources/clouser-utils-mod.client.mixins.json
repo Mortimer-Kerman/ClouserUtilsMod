@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "package": "net.mortimer_kerman.clouserutilsmod.mixin.client",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "CameraMixin",
+    "PlayerMixin",
+    "ValidatingIntSliderCallbacksMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "EntityMixin",
+    "KeyBindingMixin",
+    "LivingEntityMixin",
+    "OptionsMixin"
+  ]
+}
